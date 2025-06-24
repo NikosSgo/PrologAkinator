@@ -1,0 +1,43 @@
+# Общие системные файлы
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Сборки и бинарные файлы
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+
+# Файлы пакетов NuGet
+packages/
+*.nupkg
+NuGet.exe
+
+# Файлы зависимостей
+.fake/
+.paket/
+paket-files/
+
+# Файлы тестов
+TestResults/
+*.trx
+*.coverage
+
+# Файлы F# Interactive (FSI)
+*.fsx
+*.fsi
+
+# Локальные настройки
+*.local.*
+.env
+.env.local
+
+# Автогенерируемые файлы проектов
+*.fsproj.user
